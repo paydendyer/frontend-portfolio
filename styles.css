@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.navigation li {
+  float: right;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+ul.navigation li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 25px;
+  padding-bottom: 5px;
+  margin-right: 65px;
+}
+
+.left {
+  float: left;
+  font-weight: bold;
+  padding-left: 68px;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 14px;
+  display: inline;
+}
+
+@media screen and (max-width: 600px) {
+  ul.navigation li.left, 
+  ul.navigation li {float: none;}
+}
+.home-background {
+  background: rgba(23, 23, 224, .7);
+  width: 1074px;
+  padding-left: 68px;
+  padding-bottom: 68px;
+  border-left: 68px solid white;
+  height: 800px;
+}
+.frontend {
+  color: black;
+  font-size: 120px;
+  left: 0;
+  line-height: 150px;
+  margin-top: -160px;
+  margin-left: 770px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  letter-spacing: 6px;
+}
+.icons {
+  left: 0;
+  line-height: 150px;
+  margin-top: 100px;
+  margin-left: 770px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: 30px;
+}
+i {
+  padding-right: 20px;
+}
