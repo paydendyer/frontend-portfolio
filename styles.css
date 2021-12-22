@@ -35,10 +35,19 @@ ul.navigation li a {
   padding-top: 14px;
   display: inline;
 }
-
-@media screen and (max-width: 600px) {
-  ul.navigation li.left, 
-  ul.navigation li {float: none;}
+@media screen and (max-width: 800px) {
+  .left, ul navigation li {
+    font-size: 15px;
+  }
+  }
+  @media screen and (max-width: 800px) {
+    .left {
+      padding-left: 0px;
+      text-align: center;
+    }
+  }
+@media screen and (max-width: 800px) {
+  ul.navigation li, .left {float: none;}
 }
 .home-background {
   background: rgba(23, 23, 224, .7);
@@ -72,4 +81,35 @@ ul.navigation li a {
 }
 i {
   padding-right: 20px;
+}
+@media screen and (max-width: 800px) {
+  .frontend {
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 50px;
+    top: 50%;
+    width: 150px;
+    letter-spacing: 6px;
+    height: 100%;
+    margin-top: -300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home-background {
+    width: 100%;
+    border-left: 0px;
+    overflow: hidden;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+.icons {
+  margin-top: -200px;
+  margin-left: 50px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  font-size: 30px;
+}
 }
