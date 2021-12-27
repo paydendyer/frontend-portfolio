@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -62,7 +65,6 @@ ul.navigation li a {
   padding-bottom: 68px;
   border-left: 68px solid white;
   height: 100%;
-  min-height: 600px;
   border-top: 68px solid white;
 }
 .frontend {
@@ -104,6 +106,7 @@ i {
     padding-bottom: 0px;
     width: 100%;
     display: hidden;
+    height: 100%;
     border-top: 45px solid white;
   }
 }
@@ -115,4 +118,50 @@ i {
   font-size: 30px;
   text-align: center;
 }
+}
+#work {
+  border: 68px solid white;
+  height: 100%;
+  background: rgba(23, 23, 224, .7);
+  margin-left: 100px;
+}
+h2.work {
+  font-size: 20px;
+}
+h1.work {
+  padding-bottom: 10px;
+  margin-top: 40px;
+  padding-left: 10px;
+}
+.card-body {
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+.card {
+  padding-top: 30px;
+  padding-left: 10px;
+} 
+.grid-container {
+ display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: auto;
+}
+@media screen and (max-width: 800px) {
+  h2.work, p.work {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #work {
+    border: none;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  h1.work {
+    text-align: center;
+  }
 }
