@@ -86,7 +86,7 @@ ul.navigation li a {
   font-size: 30px;
   display: inline-block;
 }
-i {
+.icons i {
   padding-right: 20px;
 }
 @media screen and (max-width: 800px) {
@@ -123,14 +123,12 @@ i {
   border: 68px solid white;
   height: 100%;
   background: rgba(23, 23, 224, .7);
-  margin-left: 100px;
+  max-height: 1600px;
 }
-h2.work {
+h2 {
   font-size: 20px;
 }
 h1.work {
-  padding-bottom: 10px;
-  margin-top: 40px;
   padding-left: 10px;
 }
 .card-body {
@@ -142,7 +140,6 @@ h1.work {
 }
 .card {
   padding-top: 30px;
-  padding-left: 10px;
 } 
 .grid-container {
  display: grid;
@@ -161,15 +158,21 @@ h1.work {
   }
 }
 @media screen and (max-width: 800px) {
-  h1.work {
+  h1.work, h1.skills {
     text-align: center;
   }
 }
 h1.skills {
   float: right;
-  padding-bottom: 10px;
-  margin-top: 40px;
+  padding-top: 10px;
+  margin-bottom: 70px;
   padding-right: 10px;
+}
+@media screen and (max-width: 800px) {
+  h1.skills {
+    float: none;
+    margin: 0px;
+  }
 }
 .grid-container-skills {
   display: grid;
@@ -177,16 +180,41 @@ h1.skills {
    grid-auto-rows: auto;
    grid-row-gap: 100px;
  }
+ @media screen and (max-width: 800px) {
+   .grid-container-skills {
+    grid-template-columns: 25% 25%;
+     grid-gap: 20px;
+     justify-content: center;
+   }
+  }
  #skills {
   background: rgba(23, 23, 224, .7);
   border: 68px solid white;
-  margin-right: 100px;
   height: 100%;
  }
+ @media screen and (max-width: 800px) {
+   #skills {
+     border: none;
+     margin: 0px;
+   }
+  }
  .skills {
    margin-left: 200px;
    padding-top: 50px;
  }
+ @media screen and (max-width: 800px) {
+   .skills {
+     margin: 0px;
+     padding: 0px;
+   }
+  }
  .skills-paragraph {
    text-align: center;
  }
+ .skills-body {
+   text-align: center;
+   display: inline-block;
+   padding-bottom: 10px;
+   margin-bottom: 40px;
+ }
+ 
