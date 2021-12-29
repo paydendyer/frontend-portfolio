@@ -183,7 +183,7 @@ h1.skills {
  @media screen and (max-width: 800px) {
    .grid-container-skills {
     grid-template-columns: 25% 25%;
-     grid-gap: 20px;
+     grid-gap: 60px;
      justify-content: center;
    }
   }
