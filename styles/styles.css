@@ -120,16 +120,16 @@ ul.navigation li a {
 }
 }
 #work {
-  border: 68px solid white;
+  border-left: 68px solid white;
+  border-right: 68px solid white;
   height: 100%;
   background: rgba(23, 23, 224, .7);
   max-height: 1600px;
 }
 h2 {
-  font-size: 20px;
-}
-h1.work {
-  padding-left: 10px;
+  font-size: 40px;
+  text-align:center;
+  padding-bottom: 30px;
 }
 .card-body {
   text-align: center;
@@ -140,6 +140,8 @@ h1.work {
 }
 .card {
   padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 } 
 .grid-container {
  display: grid;
@@ -147,8 +149,8 @@ h1.work {
   grid-auto-rows: auto;
 }
 @media screen and (max-width: 800px) {
-  h2.work, p.work {
-    font-size: 12px;
+  h2, p.work {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -157,40 +159,26 @@ h1.work {
     margin: 0;
   }
 }
-@media screen and (max-width: 800px) {
-  h1.work, h1.skills {
-    text-align: center;
-  }
-}
-h1.skills {
-  float: right;
-  padding-top: 10px;
-  margin-bottom: 70px;
-  padding-right: 10px;
-}
-@media screen and (max-width: 800px) {
-  h1.skills {
-    float: none;
-    margin: 0px;
-  }
-}
 .grid-container-skills {
   display: grid;
    grid-template-columns: 25% 25% 25% 25%;
    grid-auto-rows: auto;
-   grid-row-gap: 100px;
+   grid-row-gap: 50px;
+   justify-content: center;
  }
  @media screen and (max-width: 800px) {
    .grid-container-skills {
     grid-template-columns: 25% 25%;
      grid-gap: 60px;
+     grid-row-gap: 0px;
      justify-content: center;
    }
   }
  #skills {
   background: rgba(23, 23, 224, .7);
-  border: 68px solid white;
   height: 100%;
+  border-left: 68px solid white;
+  border-right: 68px solid white;
  }
  @media screen and (max-width: 800px) {
    #skills {
@@ -199,8 +187,7 @@ h1.skills {
    }
   }
  .skills {
-   margin-left: 200px;
-   padding-top: 50px;
+   margin-left: 100px;
  }
  @media screen and (max-width: 800px) {
    .skills {
@@ -215,6 +202,27 @@ h1.skills {
    text-align: center;
    display: inline-block;
    padding-bottom: 10px;
-   margin-bottom: 40px;
+   margin-bottom: 100px;
+   padding-top: 100px;
+   border-bottom: 10px solid white;
  }
- 
+ @media screen and (max-width: 800px) {
+   .skills-body {
+     padding-bottom: 0px;
+     margin-bottom: 0px;
+     padding-top: 0px;
+     border-bottom: none;
+   }
+  }
+ p {
+   font-size: 18px;
+   text-align: center;
+ }
+ .skills-icon {
+   font-size: 120px;
+ }
+ @media screen and (max-width: 800px) {
+   .skills-icon {
+     font-size: 80px;
+   }
+  }
