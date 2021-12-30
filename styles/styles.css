@@ -260,5 +260,20 @@ h2 {
     font-size: 15px;
   }
   a {
-    color: inherit;
+    color: black;
+  }
+  a:link {
+    color:black;
+  }
+  a:visited {
+    color: rgba(0, 0, 0, 0.9);
+  }
+  a:focus {
+    color: black;
+  }
+  a:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  a:active {
+    color: black;
   }
