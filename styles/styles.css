@@ -89,6 +89,11 @@ ul.navigation li a {
 .icons i {
   padding-right: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .frontend {
+    font-size: 80px;
+  }
+}
 @media screen and (max-width: 800px) {
   .frontend {
     font-size: 50px;
@@ -99,11 +104,7 @@ ul.navigation li a {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 1024px) {
-  .frontend {
-    font-size: 80px;
-  }
-}
+
 @media screen and (max-width: 1024px) {
   .home-background {
     border-left: 45px solid white;
