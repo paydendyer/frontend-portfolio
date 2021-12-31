@@ -21,7 +21,7 @@
   <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
   <div class="home-background">
-    <h1 class="frontend"> Frontend <br> Developer.</h1>
+    <h1 class="frontend">Frontend<br> Developer.</h1>
     <button class="button">View My Resume</button>
     <div class="icons">
     <a href="https://instagram.com/paydendyer" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -177,11 +177,21 @@
   <script> 
   window.sr = ScrollReveal();
   sr.reveal('.frontend', { 
-  rotate: { x: 50, y: 150, z: 0 },
-  duration: 1500
+  duration: 1000,
+  rotate: {
+        x: 0,
+        y: 0,
+        z: 400
+    },
+  interval: 300,
+  easing: 'ease-in'
 });
 sr.reveal('.icons', {
-  duration: 1000
+  duration: 1000,
+  interval: 300,
+  easing: 'ease-in',
+  origin: 'right',
+  distance: '50px'
 });
   </script>
   <script>
