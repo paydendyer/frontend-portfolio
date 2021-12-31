@@ -143,6 +143,7 @@ ul.navigation li a {
   height: 100%;
   background: white;
   max-height: 1600px;
+  overflow: hidden;
 }
 h2 {
   font-size: 40px;
@@ -244,7 +245,7 @@ h2 {
     grid-auto-rows: auto;
   }
   .about p {
-    width: 500px;
+    width: 50%;
     font-size: 20px;
     font-weight: 100;
   }
