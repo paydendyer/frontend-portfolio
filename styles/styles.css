@@ -92,6 +92,7 @@ ul.navigation li a {
 @media screen and (max-width: 1024px) {
   .frontend {
     font-size: 80px;
+    margin-left: 50%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -123,7 +124,11 @@ ul.navigation li a {
     border-top: 45px solid white;
   }
 }
-
+@media screen and (max-width: 1024px) {
+  .icons {
+    margin-left: 50%;
+  }
+}
 @media screen and (max-width: 800px) {
 .icons {
   margin-top: 0px;
