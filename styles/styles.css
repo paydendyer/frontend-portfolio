@@ -61,8 +61,8 @@ ul.navigation li a {
 .home-background {
   background: rgba(23, 23, 224, .7);
   width: 58%;
-  padding-left: 68px;
-  padding-bottom: 10px;
+  padding-left: 5%;
+  padding-bottom: 1%;
   border-left: 68px solid white;
   height: 100%;
   border-top: 68px solid white;
@@ -72,8 +72,8 @@ ul.navigation li a {
   font-size: 120px;
   left: 0;
   line-height: 150px;
-  margin-top: 300px;
-  margin-left: 770px;
+  margin-top: 33%;
+  margin-left: 60%;
   width: 100%;
   letter-spacing: 6px;
   display: inline-block;
@@ -81,7 +81,7 @@ ul.navigation li a {
 .icons {
   left: 0;
   line-height: 150px;
-  margin-left: 770px;
+  margin-left: 60%;
   width: 100%;
   font-size: 30px;
   display: inline-block;
@@ -99,6 +99,17 @@ ul.navigation li a {
     margin-top: 20px;
   }
 }
+@media screen and (max-width: 1024px) {
+  .frontend {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home-background {
+    border-left: 45px solid white;
+    border-top: 105px solid white;
+  }
+}
 @media screen and (max-width: 800px) {
   .home-background {
     border-left: 0px;
@@ -110,6 +121,7 @@ ul.navigation li a {
     border-top: 45px solid white;
   }
 }
+
 @media screen and (max-width: 800px) {
 .icons {
   margin-top: 0px;
