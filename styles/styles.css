@@ -22,7 +22,7 @@ ul.navigation li a {
   text-align: center;
   padding: 14px 50px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 5px;
   margin-right: 65px;
 }
@@ -62,29 +62,32 @@ ul.navigation li a {
   background: rgba(23, 23, 224, .7);
   width: 58%;
   padding-left: 5%;
-  padding-bottom: 1%;
   border-left: 68px solid white;
   height: 100%;
   border-top: 68px solid white;
+  height: 900px;
 }
 .frontend {
   color: black;
   font-size: 120px;
   left: 0;
-  line-height: 150px;
-  margin-top: 33%;
+  margin-top: 28%;
   margin-left: 60%;
   width: 100%;
   letter-spacing: 6px;
   display: inline-block;
 }
+h1 {
+  font-size: 120px;
+  line-height: 150px;
+}
 .icons {
   left: 0;
-  line-height: 150px;
   margin-left: 60%;
   width: 100%;
-  font-size: 30px;
+  font-size: 35px;
   display: inline-block;
+  line-height: 100px;
 }
 .icons i {
   padding-right: 20px;
@@ -139,7 +142,7 @@ ul.navigation li a {
 }
 }
 #sections {
-  border: 45px solid rgba(23, 23, 224, .7);
+  border: 24px solid rgba(23, 23, 224, .7);
   height: 100%;
   background: white;
   max-height: 1600px;
@@ -204,8 +207,8 @@ h2 {
  .skills-body {
    text-align: center;
    display: inline-block;
-   padding-bottom: 50px;
-   padding-top: 50px;
+   padding-bottom: 25px;
+   padding-top: 25px;
  }
  @media screen and (max-width: 800px) {
    .skills-body {
@@ -233,12 +236,14 @@ h2 {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-auto-rows: auto;
+    justify-content: center;
+    height: 100%;
   }
   @media screen and (max-width: 800px) {
     .grid-container-certifications {
       grid-template-columns: 25% 25%;
       justify-content: center;
-      grid-column-gap: 25px;
+      grid-column-gap: 60px;
     }
   }
   .grid-container-about {
@@ -265,6 +270,7 @@ h2 {
   }
   .certifications {
     text-align: center;
+    width: 100%;
   }
   .icons2 {
     left: 0;
@@ -305,4 +311,28 @@ h2 {
   }
   a:active {
     color: black;
+  }
+  .button {
+    background: rgba(23, 23, 224, .7);
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    margin-left: 60%;
+  }
+  .logos img {
+    width: 100%;
+  }
+  .logos {
+    width: 10em;
+  }
+  @media screen and (max-width: 800px) {
+    .logos {
+      width: 6em;
+    }
   }

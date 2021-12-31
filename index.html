@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Landing Page</title>
   <link rel="stylesheet" href="styles/styles.css">
+  
   <script src="https://kit.fontawesome.com/1c8119ffa7.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,6 +19,7 @@
   </ul>
   <div class="home-background">
     <h1 class="frontend"> Frontend <br> Developer.</h1>
+    <button class="button">View My Resume</button>
     <div class="icons">
     <a href="https://instagram.com/paydendyer" target="_blank"><i class="fab fa-instagram"></i></a>
     <a href="https://linkedin.com/in/paydendyer" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -110,32 +112,32 @@
       <div class="grid-container-certifications">
         <div class="certifications">
          <h4> React</h4> 
-         <img src="codecademy.jpg" alt="codecademy" width="50%">
+         <img src="codecademy.jpg" alt="codecademy" width="50%" class="logos">
          <p><a href="#">View Certificate</p></a>
         </div>
         <div class="certifications">
           <h4> Bootstrap</h4> 
-          <img src="codecademy.jpg" alt="codecademy" width="50%">
-          <p><a href="#">View Certificate</p></a>
-         </div>
-         <div class="certifications">
-          <h4> Node.js</h4> 
-          <img src="nodejs.jpg" alt="node.js" width="25%">
-          <p><a href="#">View Certificate</p></a>
-         </div>
-         <div class="certifications">
-          <h4> JS & Data Structures</h4> 
-          <img src="freecodecamp.jpg" alt="freecodecamp" width="25%">
-          <p><a href="#">View Certificate</p></a>
-         </div>
-         <div class="certifications">
-          <h4> Responsive Web Design</h4> 
-          <img src="freecodecamp.jpg" alt="codecademy" width="25%">
+          <img src="codecademy.jpg" alt="codecademy" width="50%" class="logos">
           <p><a href="#">View Certificate</p></a>
          </div>
          <div class="certifications">
           <h4> Intermediate CSS</h4> 
-          <img src="codecademy.jpg" alt="codecademy" width="50%">
+          <img src="codecademy.jpg" alt="codecademy" width="50%" class="logos">
+          <p><a href="#">View Certificate</p></a>
+         </div>
+         <div class="certifications">
+          <h4> JS & Data Structures</h4> 
+          <img src="freecodecamp.jpg" alt="freecodecamp" width="25%" class="logos">
+          <p><a href="#">View Certificate</p></a>
+         </div>
+         <div class="certifications">
+          <h4> Responsive Web Design</h4> 
+          <img src="freecodecamp.jpg" alt="codecademy" width="25%" class="logos">
+          <p><a href="#">View Certificate</p></a>
+         </div>
+         <div class="certifications">
+          <h4> Node.js</h4> 
+          <img src="nodejs.jpg" alt="node.js" width="25%" class="logos">
           <p><a href="#">View Certificate</p></a>
          </div>
       </div>
@@ -168,5 +170,16 @@
     <a href="https://behance.net/paydendyer" target="_blank"><i class="fab fa-behance"></i></a>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
+  <script> 
+  window.sr = ScrollReveal();
+  sr.reveal('.frontend', { 
+  rotate: { x: 50, y: 150, z: 0 },
+  duration: 1500
+});
+sr.reveal('.icons', {
+  duration: 1000
+});
+  </script>
 </body>
 </html>
