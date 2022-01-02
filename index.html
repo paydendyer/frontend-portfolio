@@ -11,18 +11,17 @@
 </head>
 <body>
   <header class="left">Payden Dyer</header>
-  <div class="navigation-container" id="myTopnav">
-  <ul class="navigation">
-    <li> <a href="#workk"> Work</a></li>
-    <li> <a href="#skillss"> Skills</a></li>
-    <li> <a href="#aboutt"> About</a></li>
-    <li> <a href="#contact"> Contact</a></li>
-  </ul>
+  <div class="navigation" id="myTopnav">
+    <a href="#workk"> Work</a>
+    <a href="#skillss"> Skills</a>
+    <a href="#aboutt"> About</a>
+    <a href="#contact"> Contact</a>
   <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
   <div class="home-background">
     <h1 class="frontend">Frontend<br> Developer.</h1>
-    <button class="button">View My Resume</button>
+    <div class="button-container">
+    <button class="button">View My Resume</button></div>
     <div class="icons">
     <a href="https://instagram.com/paydendyer" target="_blank"><i class="fab fa-instagram"></i></a>
     <a href="https://linkedin.com/in/paydendyer" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -197,10 +196,10 @@ sr.reveal('.icons', {
   <script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
-      if (x.className === "navigation-container") {
+      if (x.className === "navigation") {
         x.className += " responsive";
       } else {
-        x.className = "navigation-container";
+        x.className = "navigation";
       }
     }
     </script>
