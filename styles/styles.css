@@ -26,8 +26,13 @@ body {
 a {
   text-decoration: none;
 }
+@media screen and (max-width: 876px) {
+  .navigation a {
+    padding: 8px 40px;
+  }
+}
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .navigation a {
     display: none;
     padding: 12px 25px;
@@ -40,7 +45,7 @@ a {
   }
 }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .navigation.responsive {
     position: relative;
     width: 100%;
@@ -79,7 +84,7 @@ a {
   width: 58%;
   padding-left: 5%;
   border-left: 68px solid white;
-  height: 100%;
+  max-height: 100%;
   border-top: 68px solid white;
   height: 900px;
 }
@@ -96,6 +101,11 @@ h1 {
   font-size: 6vw;
   line-height: 1.5;
 }
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 8vw;
+  }
+}
 .icons {
   left: 0;
   margin-left: 60%;
@@ -111,17 +121,13 @@ h1 {
 
 @media screen and (max-width: 800px) {
   .frontend {
-    text-align: center;
     margin-left: 0px;
-    letter-spacing: 6px;
     margin-top: 20px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .home-background {
-    border-left: 45px solid white;
-    border-top: 105px solid white;
     padding-bottom: 0px;
   }
 }
@@ -134,6 +140,7 @@ h1 {
     display: hidden;
     height: 100%;
     border-top: 45px solid white;
+    text-align: center;
   }
 }
 @media screen and (max-width: 800px) {
