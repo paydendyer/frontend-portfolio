@@ -108,11 +108,7 @@ h1 {
 .icons i {
   padding-right: 20px;
 }
-@media screen and (max-width: 1200px) {
-  .frontend {
-    margin-left: 50%;
-  }
-}
+
 @media screen and (max-width: 800px) {
   .frontend {
     text-align: center;
@@ -138,11 +134,6 @@ h1 {
     display: hidden;
     height: 100%;
     border-top: 45px solid white;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .icons {
-    margin-left: 50%;
   }
 }
 @media screen and (max-width: 800px) {
