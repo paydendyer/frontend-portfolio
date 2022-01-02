@@ -28,7 +28,7 @@ a {
 }
 @media screen and (max-width: 876px) {
   .navigation a {
-    padding: 8px 40px;
+    padding: 6px 30px;
   }
 }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -71,7 +71,7 @@ a {
   display: inline;
 }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .left {
       padding-left: 0px;
       text-align: center;
@@ -81,7 +81,7 @@ a {
 
 .home-background {
   background: rgba(23, 23, 224, .7);
-  width: 58%;
+  width: 58vw;
   padding-left: 5%;
   border-left: 68px solid white;
   max-height: 100%;
@@ -101,7 +101,7 @@ h1 {
   font-size: 6vw;
   line-height: 1.5;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 8vw;
   }
@@ -118,7 +118,7 @@ h1 {
 .icons i {
   padding-right: 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .frontend {
     margin-left: 0px;
     margin-top: 20px;
@@ -131,7 +131,7 @@ h1 {
     height: 70vh;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .home-background {
     border-left: 0px;
     padding-left: 0px;
@@ -142,7 +142,7 @@ h1 {
     text-align: center;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 .icons {
   margin-top: 0px;
   margin-left: 0px;
@@ -176,12 +176,12 @@ h2 {
   grid-template-columns: 50% 50%;
   grid-auto-rows: auto;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   h2{
     font-size: 25px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   #sections {
     margin: 0;
     border: 20px solid rgba(23, 23, 224, .7);
@@ -194,7 +194,7 @@ h2 {
    grid-row-gap: 50px;
    justify-content: center;
  }
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 768px) {
    .grid-container-skills {
     grid-template-columns: 25% 25%;
      grid-gap: 60px;
@@ -206,7 +206,7 @@ h2 {
  .skills {
    margin-left: 100px;
  }
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 768px) {
    .skills {
      margin: 0px;
      padding: 0px;
@@ -219,7 +219,7 @@ h2 {
    padding-bottom: 25px;
    padding-top: 25px;
  }
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 768px) {
    .skills-body {
      padding-bottom: 0px;
      margin-bottom: 0px;
@@ -232,7 +232,7 @@ h2 {
  .skills-icon {
    font-size: 100px;
  }
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 768px) {
    .skills-icon {
      font-size: 80px;
    }
@@ -248,7 +248,7 @@ h2 {
     justify-content: center;
     height: 100%;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .grid-container-certifications {
       grid-template-columns: 25% 25%;
       justify-content: center;
@@ -260,7 +260,7 @@ h2 {
     grid-template-columns: 50% 50%;
     grid-auto-rows: auto;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .grid-container-about {
       display: inline-block;
     }
@@ -269,7 +269,7 @@ h2 {
     width: 50%;
     font-size: 20px;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .about p {
       font-size: 18px;
       align-content: center;
@@ -295,7 +295,7 @@ h2 {
     width: 50%;
     padding-left: 12%;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .about-pic {
       width: 75%;
     }
@@ -333,7 +333,7 @@ h2 {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     margin-left: 60%;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
   .button {
     margin-left: 0px;
   }
@@ -347,7 +347,7 @@ h2 {
   .logos {
     width: 10em;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     .logos {
       width: 6em;
     }
