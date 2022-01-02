@@ -16,10 +16,9 @@ body {
   display: inline-block;
   color: black;
   text-align: center;
-  padding: 14px 50px;
+  padding: 12px 50px;
   font-size: 20px;
   padding-bottom: 5px;
-  margin-right: 65px;
 }
 .navigation .icon {
   display: none;
@@ -34,7 +33,6 @@ a {
     padding: 12px 25px;
     font-size: 20px;
     padding-bottom: 0px;
-    margin-right: 0px;
   }
   .navigation a.icon {
     float: right;
@@ -68,12 +66,6 @@ a {
   padding-top: 14px;
   display: inline;
 }
-@media screen and (max-width: 800px) {
-  .left, ul.navigation li {
-    font-size: 15px;
-    text-align: center;
-  }
-  }
 
   @media screen and (max-width: 800px) {
     .left {
@@ -81,12 +73,7 @@ a {
       text-align: center;
     }
   }
-@media screen and (max-width: 800px) {
-  ul.navigation li a {
-    margin-right: 0px;
-    padding: 10px;
-  }
-}
+
 .home-background {
   background: rgba(23, 23, 224, .7);
   width: 58%;
@@ -98,7 +85,6 @@ a {
 }
 .frontend {
   color: black;
-  font-size: 120px;
   left: 0;
   margin-top: 28%;
   margin-left: 60%;
@@ -107,8 +93,8 @@ a {
   display: inline-block;
 }
 h1 {
-  font-size: 120px;
-  line-height: 150px;
+  font-size: 6vw;
+  line-height: 1.5;
 }
 .icons {
   left: 0;
@@ -116,21 +102,19 @@ h1 {
   max-width: 100%;
   font-size: 35px;
   display: inline-block;
-  line-height: 100px;
+  line-height: 1.5;
+  padding-top: 10px;
 }
 .icons i {
   padding-right: 20px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .frontend {
-    font-size: 80px;
     margin-left: 50%;
   }
 }
 @media screen and (max-width: 800px) {
   .frontend {
-    font-size: 50px;
-    line-height: 60px;
     text-align: center;
     margin-left: 0px;
     letter-spacing: 6px;
@@ -138,7 +122,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .home-background {
     border-left: 45px solid white;
     border-top: 105px solid white;
