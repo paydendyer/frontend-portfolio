@@ -151,7 +151,7 @@ h1 {
 }
 }
 #sections {
-  border: 24px solid rgba(23, 23, 224, .7);
+  border: 12px solid rgba(23, 23, 224, .7);
   height: 100%;
   background: white;
   max-height: 1600px;
@@ -173,8 +173,9 @@ h2 {
 } 
 .grid-container {
  display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 33% 33% 33%;
   grid-auto-rows: auto;
+  max-width: 1200px;
 }
 @media screen and (max-width: 768px) {
   h2{
