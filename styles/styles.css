@@ -17,7 +17,7 @@ body {
   color: black;
   text-align: center;
   padding: 12px 50px;
-  font-size: 20px;
+  font-size: 1.5em;
   padding-bottom: 5px;
 }
 .navigation .icon {
@@ -42,6 +42,7 @@ a {
   .navigation a.icon {
     float: right;
     display: block;
+    color: black;
   }
 }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -83,17 +84,18 @@ a {
   background: rgba(23, 23, 224, .7);
   width: 58vw;
   padding-left: 5%;
-  border-left: 68px solid white;
+  border-left: 60px solid white;
   max-height: 100%;
-  border-top: 68px solid white;
+  border-top: 60px solid white;
   height: 90vh;
 }
 .frontend {
-  color: white;
+  color: black;
   left: 0;
   margin-top: 10%;
   letter-spacing: 6px;
   display: inline-block;
+  text-shadow: 4px 2px 1px white;
 }
 h1 {
   font-size: 6vw;
@@ -122,10 +124,15 @@ h1 {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .home-background {
     padding-bottom: 0px;
-    height: 70vh;
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home-background {
+    width: 85%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -135,7 +142,7 @@ h1 {
     padding-bottom: 0px;
     width: 100%;
     display: hidden;
-    height: 55vh;
+    height: 100vh;
     text-align: center;
   }
 }
@@ -342,7 +349,7 @@ h2 {
   }
   .button-container {
     text-align: center;
-    margin-top: 7vh;
+    margin-top: 5vh;
   }
 }
   .logos img {
@@ -362,7 +369,7 @@ h2 {
 }
 @media screen and (max-width: 768px) {
   .mobile-menu {
-    display: inline;
+    display: none;
   }
 button {
   position: absolute;
@@ -442,15 +449,42 @@ nav svg a:focus text {
   display: inline-flex;
   float: right;
   position: absolute;
-  margin-top: 20%;
-  margin-left: 15%;
-}
-@media screen and (max-width: 768px) {
-  .lottie {
-    width: 50%;
-    height: 50%;
-  }
+  margin-top: 15%;
+  margin-left: 20%;
+  width: 600px;
+  height: 600px;
 }
 .lottie2 {
   float: right;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 1280px) {
+  .lottie {
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .lottie {
+    width: 30%;
+    height: 30%;
+  }
+  .lottie2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lottie2 {
+   display: none;
+  }
+  .lottie {
+    width: 250px;
+    height: 250px;
+    float: none;
+    margin-left: 5%;
+    margin-top: 0;
+    position:relative;
+  }
 }
