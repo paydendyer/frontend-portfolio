@@ -80,14 +80,16 @@ a {
   }
 
 .home-background {
-  background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
-  background-repeat: no-repeat;
-  width: 100vw;
+  background: rgba(23, 23, 224, .7);
+  width: 58vw;
+  padding-left: 5%;
+  border-left: 68px solid white;
   max-height: 100%;
-  height: 100vh;
+  border-top: 68px solid white;
+  height: 90vh;
 }
 .frontend {
-  color: black;
+  color: white;
   left: 0;
   margin-top: 10%;
   letter-spacing: 6px;
@@ -105,7 +107,6 @@ h1 {
 .icons {
   left: 0;
   max-width: 100%;
-  padding-left: 13%;
   font-size: 2vw;
   display: inline-block;
   line-height: 1.5;
@@ -326,14 +327,13 @@ h2 {
   .button {
     background: rgba(23, 23, 224, .7);
     border-radius: 10px;
-    border: 1px solid black;
+    border: none;
     color: white !important;
     padding: 12px;
     text-align: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    margin-left: 15%;
     display: inline-block;
   }
   @media screen and (max-width: 768px) {
