@@ -80,20 +80,16 @@ a {
   }
 
 .home-background {
-  background: rgba(23, 23, 224, .7);
-  width: 58vw;
-  padding-left: 5%;
-  border-left: 68px solid white;
+  background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+  background-repeat: no-repeat;
+  width: 100vw;
   max-height: 100%;
-  border-top: 68px solid white;
-  height: 90vh;
+  height: 100vh;
 }
 .frontend {
   color: black;
   left: 0;
-  margin-top: 20%;
-  margin-left: 60%;
-  width: 100%;
+  margin-top: 10%;
   letter-spacing: 6px;
   display: inline-block;
 }
@@ -103,13 +99,13 @@ h1 {
 }
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 8vw;
+    font-size: 10vw;
   }
 }
 .icons {
   left: 0;
-  margin-left: 60%;
   max-width: 100%;
+  padding-left: 13%;
   font-size: 2vw;
   display: inline-block;
   line-height: 1.5;
@@ -138,7 +134,7 @@ h1 {
     padding-bottom: 0px;
     width: 100%;
     display: hidden;
-    height: 100%;
+    height: 55vh;
     text-align: center;
   }
 }
@@ -228,7 +224,7 @@ h2 {
    }
   }
  p {
-   font-size: 16px;
+   font-size: 1rem;
  }
  .skills-icon {
    font-size: 100px;
@@ -240,7 +236,12 @@ h2 {
   }
   h3 {
     text-align: center;
-    font-size: 20px;
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: .9rem;
+    }
   }
   .grid-container-certifications {
     display: grid;
@@ -326,13 +327,14 @@ h2 {
     background: rgba(23, 23, 224, .7);
     border-radius: 10px;
     border: 1px solid black;
-    color: white;
+    color: white !important;
     padding: 12px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    margin-left: 60%;
+    margin-left: 15%;
+    display: inline-block;
   }
   @media screen and (max-width: 768px) {
   .button {
@@ -340,6 +342,7 @@ h2 {
   }
   .button-container {
     text-align: center;
+    margin-top: 7vh;
   }
 }
   .logos img {
@@ -353,3 +356,101 @@ h2 {
       width: 6em;
     }
   }
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+.mobile-menu {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mobile-menu {
+    display: inline;
+  }
+button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 4rem;
+  background: none;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 0;
+}
+text {
+  color: white;
+}
+button:focus {
+  outline-color: currentColor;
+}
+button svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(5px 5px hsl(0, 0%, 20%));
+}
+button .translate {
+  transition: transform 0.25s ease-in-out;
+  transition-delay: 0.25s;
+}
+button .rotate {
+  transition: transform 0.25s ease-in-out;
+  transition-delay: 0s;
+}
+button.open .translate {
+  transform: translateY(0);
+  transition-delay: 0s;
+}
+button.open .rotate {
+  transform: rotate(0);
+  transition-delay: 0.25s;
+}
+nav {
+  width: 100vmin;
+  visibility: hidden;
+  height: 0;
+}
+nav.open {
+  height: 100%;
+  background-color: rgba(23, 23, 224, .7);
+  transition: 0.5s;
+}
+nav svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+nav svg text {
+  text-shadow: 0px 0.2rem hsl(0, 0%, 20%);
+  fill: currentColor;
+  font-size: 2.5rem;
+  letter-spacing: 0px;
+  transition-property: letter-spacing, text-shadow;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+nav svg a {
+  color: inherit;
+  outline: none;
+}
+nav svg a:hover text,
+nav svg a:focus text {
+  letter-spacing: 5px;
+  text-shadow: 0px 0.5rem hsl(0, 0%, 20%);
+}
+}
+.lottie {
+  display: inline-flex;
+  float: right;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 15%;
+}
+@media screen and (max-width: 768px) {
+  .lottie {
+    width: 50%;
+    height: 50%;
+  }
+}
+.lottie2 {
+  float: right;
+}

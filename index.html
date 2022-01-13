@@ -10,6 +10,77 @@
   <script src="https://kit.fontawesome.com/1c8119ffa7.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="mobile-menu">
+
+<button aria-label="Toggle Navigation">
+  <svg viewBox="-50 -40 100 80" width="50" height="40">
+    <defs>
+      <path id="line" fill="none" stroke="currentColor" stroke-width="15" stroke-linecap="round" d="M -40 0 h 80" />
+    </defs>
+    <g>
+      <g class="translate" transform="translate(0 -30)">
+        <g class="rotate" transform="rotate(-45)">
+          <use transform="rotate(45)" href="#line" />
+        </g>
+      </g>
+
+      <g class="rotate" transform="rotate(45)">
+        <use transform="rotate(-45)" href="#line" />
+      </g>
+
+      <g class="translate" transform="translate(0 30)">
+        <g class="rotate" transform="rotate(-45)">
+          <use transform="rotate(45)" href="#line" />
+        </g>
+      </g>
+    </g>
+  </svg>
+</button>
+
+<nav>
+  <svg viewBox="0 0 500 400" width="500" height="400">
+    <defs>
+      <path id="path" d="M -150 60 q 50 -20 100 0 t 100 0 100 0 100 0 100 0 100 0 100 0 100 0" fill="none" />
+    </defs>
+    <g transform="translate(0 0)">
+      <a href="#home">
+        <text>
+          <textPath text-anchor="middle" href="#path" startOffset="0%">
+            Home
+          </textPath>
+        </text>
+      </a>
+    </g>
+    <g transform="translate(0 100)">
+      <a href="#about">
+        <text>
+          <textPath text-anchor="middle" href="#path" startOffset="100%">
+            About
+          </textPath>
+        </text>
+      </a>
+    </g>
+    <g transform="translate(0 200)">
+      <a href="#services">
+        <text>
+          <textPath text-anchor="middle" href="#path" startOffset="0%">
+            Services
+          </textPath>
+        </text>
+      </a>
+    </g>
+    <g transform="translate(0 300)">
+      <a href="#contact">
+        <text>
+          <textPath text-anchor="middle" href="#path" startOffset="100%">
+            Contact
+          </textPath>
+        </text>
+      </a>
+    </g>
+  </svg>
+</nav>
+  </div>
   <header class="left">Payden Dyer</header>
   <div class="navigation" id="myTopnav">
     <a href="#workk"> Work</a>
@@ -20,8 +91,12 @@
 </div>
   <div class="home-background">
     <h1 class="frontend">Frontend<br> Developer.</h1>
-    <div class="button-container">
-    <button class="button">View My Resume</button></div>
+    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_fft5vg8j.json"  background="transparent" class="lottie2" speed="1"  style="width: 200px; height: 200px;"  loop  autoplay></lottie-player>
+  <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_tfozcvfo.json"  background="transparent"  speed="1" class="lottie" style="width: 400px; height: 400px;"  loop  autoplay></lottie-player>
+<div class="button-container">
+    <a href="https://drive.google.com/file/d/1CbAudDLdxxmG5D7tPlVQG8rtgbI8OhzC/view?usp=sharing" target="_blank" class="button">View my Resume</a>
+    </div>
+    
     <div class="icons">
     <a href="https://instagram.com/paydendyer" target="_blank"><i class="fab fa-instagram"></i></a>
     <a href="https://linkedin.com/in/paydendyer" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -29,6 +104,7 @@
     <a href="mailto:payden.dyer@outlook.com"><i class="fas fa-envelope"></i></a>
     <a href="https://behance.net/paydendyer" target="_blank"><i class="fab fa-behance"></i></a>
   </div>
+  
 </div> 
 <h2 id="workk"> Work</h2>
 <section id="sections">
@@ -214,5 +290,8 @@ sr.reveal('.icons', {
       }
     }
     </script>
+    <script src='https://unpkg.com/animejs@3.1.0/lib/anime.js'></script>
+<script  src="function.js"></script>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
 </html>
