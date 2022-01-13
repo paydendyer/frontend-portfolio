@@ -127,12 +127,6 @@ h1 {
 @media screen and (max-width: 1280px) {
   .home-background {
     padding-bottom: 0px;
-    width: 50vw;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .home-background {
-    width: 85%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -144,6 +138,7 @@ h1 {
     display: hidden;
     height: 100vh;
     text-align: center;
+    
   }
 }
 @media screen and (max-width: 768px) {
@@ -459,17 +454,28 @@ nav svg a:focus text {
   width: 200px;
   height: 200px;
 }
+@media screen and (max-width: 1800px) {
+  .lottie {
+    width: 500px;
+    height: 500px;
+  }
+}
+  @media screen and (max-width: 1500px) {
+    .lottie {
+      width: 450px;
+      height: 450px;
+    }
+  }
 @media screen and (max-width: 1280px) {
   .lottie {
-    width: 50%;
-    height: 50%;
-    margin-left: 5%;
+    width: 350px;
+    height: 350px;
   }
 }
 @media screen and (max-width: 1024px) {
   .lottie {
-    width: 30%;
-    height: 30%;
+    width: 300px;
+    height: 300px;
   }
   .lottie2 {
     display: none;
