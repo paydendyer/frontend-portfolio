@@ -1,17 +1,17 @@
-# CSS Grids
+# Frontend Portfolio
 By: Payden Dyer
-Website to host a photographer's portfolio
+Website to host frontend developer's work
 https://paydendyer.github.io/my-resume/
 ## Technology Used:
 1. HTML
 2. CSS
-3. CSS Grid
+3. Lottie
 4. Anime.js
 5. JavaScript
 6. Git
 
 ## Description of Application:
-This is a webpage meant to host a photographer's portfolio and showcase their work
+This is a webpage meant to host a frontend developer's portfolio and showcase their work
 
 ## Setup Instructions
 After cloning the respository, open index.html in your browser
