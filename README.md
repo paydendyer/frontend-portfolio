@@ -1,7 +1,7 @@
 # Frontend Portfolio
 By: Payden Dyer
 Website to host frontend developer's work
-https://paydendyer.github.io/my-resume/
+https://paydendyer.github.io/frontend-portfolio/
 ## Technology Used:
 1. HTML
 2. CSS
