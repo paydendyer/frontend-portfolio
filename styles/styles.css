@@ -174,7 +174,6 @@ h2 {
  display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-auto-rows: auto;
-  max-width: 1200px;
 }
 @media screen and (max-width: 768px) {
   h2{
