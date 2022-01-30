@@ -1,0 +1,24 @@
+.button {
+  background: rgba(23, 23, 224, .7);
+  border-radius: 10px;
+  border: none;
+  color: white !important;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+.button {
+  margin-left: 0px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 5vh;
+}
+}
+.airtable {
+  margin: 3%;
+}
