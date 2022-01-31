@@ -1,3 +1,15 @@
+/**
+ * CH01 - Resets
+ * CH02 - Typography
+ * CH03 - Page Structure
+ * CH04 - Header & Navigation
+ * CH05 - Content & Media
+ * CH06 - Footer
+ * CH07 - Miscellaneous
+**/
+
+/**
+* CH01 - Main Page **/
 html {
   scroll-behavior: smooth;
 }
@@ -5,6 +17,8 @@ body {
   margin: 0;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
+/** 
+* CH02 - Navigation **/
 .navigation {
   overflow: hidden;
 }
@@ -63,6 +77,7 @@ a {
     text-align: center;
   }
 }
+/** Header **/
 .left {
   float: left;
   font-weight: bold;
@@ -80,6 +95,7 @@ a {
     }
   }
 
+/** Background **/
 .home-background {
   background: rgba(23, 23, 224, .7);
   width: 58vw;
@@ -89,6 +105,7 @@ a {
   border-top: 60px solid white;
   height: 90vh;
 }
+/** Frontend Developer Text **/
 .frontend {
   color: black;
   left: 0;
@@ -106,6 +123,7 @@ h1 {
     font-size: 10vw;
   }
 }
+/** Social Icons **/
 .icons {
   left: 0;
   max-width: 100%;
@@ -116,6 +134,15 @@ h1 {
 }
 .icons i {
   padding-right: 20px;
+}
+/** Accessibility screenreader text for icons **/
+.sr-only{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
 @media screen and (max-width: 768px) {
   .frontend {
@@ -186,6 +213,7 @@ h2 {
     border: 20px solid rgba(23, 23, 224, .7);
   }
 }
+/** Skills Section **/
 .grid-container-skills {
   display: grid;
    grid-template-columns: 25% 25% 25% 25%;
@@ -245,6 +273,7 @@ h2 {
       font-size: .9rem;
     }
   }
+ /** Certifications Section **/ 
   .grid-container-certifications {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -259,6 +288,11 @@ h2 {
       grid-column-gap: 60px;
     }
   }
+  .certifications {
+    text-align: center;
+    width: 100%;
+  }
+  /** About Section **/
   .grid-container-about {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -281,10 +315,16 @@ h2 {
       padding-left: 5%;
     }
   }
-  .certifications {
-    text-align: center;
-    width: 100%;
+   .about-pic {
+    width: 50%;
+    padding-left: 12%;
   }
+  @media screen and (max-width: 768px) {
+    .about-pic {
+      width: 75%;
+    }
+  }
+  /** Contact Section **/
   .icons2 {
     left: 0;
     width: 100%;
@@ -295,15 +335,7 @@ h2 {
   .icons2 i {
     padding-right: 20px;
   }
-  .about-pic {
-    width: 50%;
-    padding-left: 12%;
-  }
-  @media screen and (max-width: 768px) {
-    .about-pic {
-      width: 75%;
-    }
-  }
+ 
   h4 {
     font-size: 18px;
   }
@@ -325,6 +357,7 @@ h2 {
   a:active {
     color: black;
   }
+  /** Buttons **/
   .button {
     background: rgba(23, 23, 224, .7);
     border-radius: 10px;
@@ -492,12 +525,4 @@ nav svg a:focus text {
     margin-top: 0;
     position:relative;
   }
-}
-.sr-only{
-  position:absolute;
-  left:-10000px;
-  top:auto;
-  width:1px;
-  height:1px;
-  overflow:hidden;
 }
