@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.button {
+  background: rgba(23, 23, 224, .7);
+  border-radius: 10px;
+  border: none;
+  color: white !important;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  margin: .5%;
+  float: left;
+}
+.container {
+  padding: .5rem;
+}
+.coffee-container {
+  float: right; 
+}
+@media screen and (max-width: 768px) {
+  .coffee-container {
+    float: none;
+  }
+}
+.title {
+  padding: 5%;
+  text-align: center;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+h1 {
+  font-size: 1.5rem;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+strong {
+  color:rgba(23, 23, 224, .7);
+}
+p {
+  font-size: 1rem;
+}
