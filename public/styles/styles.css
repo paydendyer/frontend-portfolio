@@ -28,7 +28,7 @@ body {
 }
 .navigation a {
   display: inline-block;
-  color: black;
+  color: white !important;
   text-align: center;
   padding: 12px 50px;
   font-size: 1.5em;
@@ -85,6 +85,7 @@ a {
   font-size: 25px;
   padding-top: 14px;
   display: inline;
+  color: white;
 }
 
   @media screen and (max-width: 768px) {
@@ -98,11 +99,9 @@ a {
 /** Background **/
 .home-background {
   background: rgba(23, 23, 224, .7);
-  width: 58vw;
+  width: 100%;
   padding-left: 5%;
-  border-left: 60px solid white;
   max-height: 100%;
-  border-top: 60px solid white;
   height: 90vh;
 }
 /** Frontend Developer Text **/
@@ -341,9 +340,6 @@ h2 {
   }
   a {
     color: black;
-  }
-  a:link {
-    color:black;
   }
   a:visited {
     color: rgba(0, 0, 0, 0.9);
