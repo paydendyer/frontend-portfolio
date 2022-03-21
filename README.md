@@ -1,6 +1,7 @@
 # Frontend Portfolio
 By: Payden Dyer
 Website to host frontend developer's work
+This site is now hosted at:
 https://paydendyer.com
 ## Technology Used:
 1. HTML
